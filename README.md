@@ -216,7 +216,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 > The model performs well overall, achieving a good accuracy on the unseen test data. However, there is a noticeable drop in performance compared to the training data, suggesting a slight degree of overfitting. The model is particularly better at identifying instances of class 0 compared to class 1, as indicated by the lower recall and F1-score for class 1 on the test set. This may be because the data is imbalanced {Customer_Status : Stayed > 2(churned)} This the class 0 is influencing the model performance since it is the majority class. To resolved use Oversampling technique like SMOTE to enhance performance of model in classifying class 0 better.
 
 ## 💡INSIGHTS From Predicted_Churn Data
-> LINK:<a href="">Prediction Analysis Dashboard</a>
+> LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Analysis%20on%20Prediction%20Data.png">Prediction Analysis Dashboard</a>
 - The >50 age group had the highest count of predicted churners at 138, which was 1,050% heigher than the <20 age group with only 12 customers.
 - The predicted churn distribution among age groups follows this order: **>50 (138)** > **35-50 (127)** > **20-35 (104)** > **<20 (12)**.
 - Customers aged >50 make up 36.22% of all predicted churners, indicating a significant churn risk in this age category.
