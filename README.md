@@ -153,7 +153,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 > Explore and enjoy the interactive Customer Churn Analysis Report.  
 > LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Churn%20Analysis%20-%20Power%20BI%20Report.pdf">Customer Churn Analysis Report</a>
 ### 💡**Summary Analysis: INSIGHTS**
-> LINK:<a href="">Summary Analysis Dashboard</a>
+> LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Summary%20Analysis.png">Summary Analysis Dashboard</a>
 - The age group >50 had the highest number of total customers (2,838), which was 2,325. 64% higher than the <20 age group, which had the lowest number of total customers (117).
 - There is a positive correlation between **Total Customers and Churn Rate**, suggesting the number of customers increases, the churn rate also tends to rise.
 - The >50 age group made up 44.22% of the total customer base, indicating that nearly half of the customers belonged to this age category.
