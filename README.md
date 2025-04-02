@@ -10,7 +10,7 @@ The goal of this project is to develop a comprehensive ETL process within a data
 By studying the characteristics of churned customers, we can identify key factors influencing customer attrition and pinpoint areas where targeted marketing campaigns can be implemented to improve retention. Additionally, leveraging predictive analytics, the project seeks to establish a reliable method for forecasting potential churners, enabling proactive intervention strategies to enhance customer loyalty and business growth.
 
 ## 📂Dataset Overview
-> LINK:<a href="">Telecom Customer Dataset</a>
+> LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Telecom_Customer_Data.csv">Telecom Customer Dataset</a>
 
 The dataset consists of customer records from a telecom company.It includes various attributes related to customer demographics, account details, service usage, and churn status.The target variable is "Customer_Status", which indicates whether a customer has left the service (Churned/Stayed).
 ### Key Features in the Dataset
