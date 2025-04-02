@@ -172,7 +172,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 5) **Improve Female Customer Retention –** Address key pain points leading to higher female churn (1,111 vs. 621 for males) through targeted initiatives.
 
 ## 🔄Predictive Modeling
-> LINK:<a href="">Jupyter Notebook</a>
+> LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Churn%20Prediction.ipynb">Jupyter Notebook</a>
 > Model Selection: The Random Forest Classifier was chosen for churn prediction due to its ability to handle large datasets, mitigate overfitting, and capture complex patterns through ensemble learning. Its robustness to imbalanced data and high interpretability make it ideal for customer churn analysis
 
 ### Prediction Results and Model Performance
