@@ -10,7 +10,7 @@ The goal of this project is to develop a comprehensive ETL process within a data
 By studying the characteristics of churned customers, we can identify key factors influencing customer attrition and pinpoint areas where targeted marketing campaigns can be implemented to improve retention. Additionally, leveraging predictive analytics, the project seeks to establish a reliable method for forecasting potential churners, enabling proactive intervention strategies to enhance customer loyalty and business growth.
 
 ## 📂Dataset Overview
-> LINK:
+> LINK:<a href="">Telecom Customer Dataset</a>
 
 The dataset consists of customer records from a telecom company.It includes various attributes related to customer demographics, account details, service usage, and churn status.The target variable is "Customer_Status", which indicates whether a customer has left the service (Churned/Stayed).
 ### Key Features in the Dataset
@@ -151,8 +151,9 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 ```
 ## Power BI: Analysis and Insights
 > Explore and enjoy the interactive Customer Churn Analysis Report.  
-
+> LINK:<a href="">Customer Churn Analysis Report</a>
 ### 💡**Summary Analysis: INSIGHTS**
+> LINK:<a href="">Summary Analysis Dashboard</a>
 - The age group >50 had the highest number of total customers (2,838), which was 2,325. 64% higher than the <20 age group, which had the lowest number of total customers (117).
 - There is a positive correlation between **Total Customers and Churn Rate**, suggesting the number of customers increases, the churn rate also tends to rise.
 - The >50 age group made up 44.22% of the total customer base, indicating that nearly half of the customers belonged to this age category.
@@ -171,7 +172,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 5) **Improve Female Customer Retention –** Address key pain points leading to higher female churn (1,111 vs. 621 for males) through targeted initiatives.
 
 ## 🔄Predictive Modeling
-LINK:
+> LINK:<a href="">Jupyter Notebook</a>
 > Model Selection: The Random Forest Classifier was chosen for churn prediction due to its ability to handle large datasets, mitigate overfitting, and capture complex patterns through ensemble learning. Its robustness to imbalanced data and high interpretability make it ideal for customer churn analysis
 
 ### Prediction Results and Model Performance
@@ -213,7 +214,7 @@ LINK:
 > The model performs well overall, achieving a good accuracy on the unseen test data. However, there is a noticeable drop in performance compared to the training data, suggesting a slight degree of overfitting. The model is particularly better at identifying instances of class 0 compared to class 1, as indicated by the lower recall and F1-score for class 1 on the test set. This may be because the data is imbalanced {Customer_Status : Stayed > 2(churned)} This the class 0 is influencing the model performance since it is the majority class. To resolved use Oversampling technique like SMOTE to enhance performance of model in classifying class 0 better.
 
 ## 💡INSIGHTS From Predicted_Churn Data
-> LINK: 
+> LINK:<a href="">Prediction Analysis Dashboard</a>
 - The >50 age group had the highest count of predicted churners at 138, which was 1,050% heigher than the <20 age group with only 12 customers.
 - The predicted churn distribution among age groups follows this order: **>50 (138)** > **35-50 (127)** > **20-35 (104)** > **<20 (12)**.
 - Customers aged >50 make up 36.22% of all predicted churners, indicating a significant churn risk in this age category.
