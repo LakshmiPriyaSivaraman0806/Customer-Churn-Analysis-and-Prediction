@@ -209,6 +209,8 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 - F1-score for class 0 (0.90) is good, but lower for class 1 (0.76).
 **Performance is slightly lower on unseen data, especially for correctly identifying class 1.**
 --------------------------------------------------------------------------------------------
+> LINK:<a href="https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Churn%20Prediction.ipynb](https://github.com/LakshmiPriyaSivaraman0806/Customer-Churn-Analysis-and-Prediction/blob/main/Prediction_data_output.csv)">Predicted_Data</a>
+
 **Final Conclusion:**
 
 > The model performs well overall, achieving a good accuracy on the unseen test data. However, there is a noticeable drop in performance compared to the training data, suggesting a slight degree of overfitting. The model is particularly better at identifying instances of class 0 compared to class 1, as indicated by the lower recall and F1-score for class 1 on the test set. This may be because the data is imbalanced {Customer_Status : Stayed > 2(churned)} This the class 0 is influencing the model performance since it is the majority class. To resolved use Oversampling technique like SMOTE to enhance performance of model in classifying class 0 better.
