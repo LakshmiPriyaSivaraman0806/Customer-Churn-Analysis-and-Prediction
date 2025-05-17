@@ -14,13 +14,13 @@ By studying the characteristics of churned customers, we can identify key factor
 
 The dataset consists of customer records from a telecom company.It includes various attributes related to customer demographics, account details, service usage, and churn status.The target variable is "Customer_Status", which indicates whether a customer has left the service (Churned/Stayed).
 ### Key Features in the Dataset
-**Customer Demographics**
+#### Customer Demographics
 - customerID: Unique customer identifier
 - gender: Male/Female
 - Married: Whether the customer is a married or not (0/1)
 - Age: Age of the customer
 - State: Customers Geographic location.
-### Account & Payment Details
+#### Account & Payment Details
 - tenure: Number of months the customer has stayed with the company
 - Contract: Type of contract (Month-to-month, One year, Two year)
 - PaymentMethod: Payment method used (Credit card, Electronic check, etc.)
