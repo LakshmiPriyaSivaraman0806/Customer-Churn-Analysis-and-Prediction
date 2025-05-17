@@ -27,13 +27,13 @@ The dataset consists of customer records from a telecom company.It includes vari
 - MonthlyCharges: The amount charged per month
 - TotalCharges: The total amount charged to the customer
 etc..
-### Service Usage & Subscription Details
+#### Service Usage & Subscription Details
 - PhoneService: Whether the customer has phone service (Yes/No)
 - MultipleLines: Whether the customer has multiple lines (Yes/No)
 - InternetService: Type of internet service (DSL, Fiber optic, No)
 - OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport: Value-added services (Yes/No)
 - StreamingTV, StreamingMovies: Whether the customer subscribes to streaming services (Yes/No)
-### Churn Label
+#### Churn Label
 Customer_Status: The target variable, indicating if the customer has left the company (Churned/Stayed)
 
 ## ETL SQL: Data Processing and Exploration
@@ -164,7 +164,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 - Jammu & Kashmir has highest Churn rate (59%):Urgent need for service improvement and localized retention plans.
 -  Contract Type & Churn: Month-to-Month → 47.5% churn (highest), One-Year → 11.7% churn, Two-Year → 2.7% churn (lowest). Longer contracts significantly reduce churn. Push incentives to convert short-term users into long-term commitments.
   
-### 🚀Key Recommendations (Crisp & Actionable)
+### 🚀Key Recommendations
 1) **Counter Competitor Influence –** Improve pricing, offer exclusive plans, and enhance customer service to reduce competitor-driven churn.
 2) **Address Jammu & Kashmir Churn (59%) –** Investigate network/service issues and introduce region-specific loyalty programs.
 3) **Encourage Long-Term Contracts –** Convert month-to-month users (47.5% churn) into long-term contracts with discounts, loyalty rewards, or bundled services.
